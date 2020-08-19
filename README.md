@@ -1,22 +1,51 @@
-# Diego Ruiz
-ul {
-  list-style-type: none;
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
   margin: 0;
-  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
- <ul>
-  <li><a href="default.asp">Home</a></li>
-  <li><a href="news.asp">News</a></li>
-  <li><a href="contact.asp">Contact</a></li>
-  <li><a href="about.asp">About</a></li>
-</ul> 
-Homepage
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
 
-I am Diego Ruiz
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
 
-<h1>Section Header</h1>
-<section>
-  <h2>Subsection Header</h2>
-  <p>Lorem ipsum</p>
-</section>
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<div class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+</div>
+
+<div style="padding-left:16px">
+  <h2>Top Navigation Example</h2>
+  <p>Some content..</p>
+</div>
+
+</body>
+</html>
